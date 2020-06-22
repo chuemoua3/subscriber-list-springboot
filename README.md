@@ -30,3 +30,15 @@ Where does it come from?
 
 
 ### Thymeleaf
+Thymeleaf a server-side java templating engine for both web and standalone JAR apps.
+Thymeleaf sits on top of exiting HTML, so we write HTML like normal and just add a few things to make it a Thymeleaf template.
+
+#### Thymeleaf "Dialects" Basics
+${...} : Variable expressions.
+*{...} : Selection expressions.
+#{...} : Message (i18n) expressions.
+@{...} : Link (URL) expressions.
+~{...} : Fragment expressions.
+
+### Repository
+A repository is necessary in Spring applications.  It aids us in adding data to our database.  It exnteds the built in CrudRepository 
