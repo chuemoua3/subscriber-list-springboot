@@ -26,6 +26,19 @@ public class Subscriber {
     @CreationTimestamp
     private Date signedUp;
 
+    // create constructors
+    public Subscriber(){
+        // non-argument constructor needed for JPA
+    }
+
+    public Subscriber(String firstName, String lastName, String userName, Date signedUp){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.userName = userName;
+        this.signedUp = signedUp;
+    }
+
+
     public String getFirstName() {
         return firstName;
     }
