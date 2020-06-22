@@ -24,9 +24,9 @@ Where does it come from?
 #### Annotations
 * @Entity - designates a POJO class as an entity so that we can use it with JPA
 * @Id - JPA will recognize this as the object's primary key
-* @GeneratedValue - allows the data base to set the value for the field
-- @Column - 
-- @CreationTimestamp - 
+* @GeneratedValue - allows the database to set the value for the field
+* @Column - attribute is stored in a database column by the same name
+* @CreationTimestamp - sets the value of the field to the current time and date during creation (exactly once)
 
 
 ### Thymeleaf
